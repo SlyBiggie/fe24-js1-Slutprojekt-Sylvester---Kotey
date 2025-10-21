@@ -1,7 +1,7 @@
-# Detta är en webbapplikation skapad med ren JavaScript, HTML och CSS som interagerar med The Movie Database (TMDb) API för att visa populära och högst rankade filmer samt söka efter filmer och personer.
+## Detta är en webbapplikation skapad med ren JavaScript, HTML och CSS som interagerar med The Movie Database (TMDb) API för att visa populära och högst rankade filmer samt söka efter filmer och personer.
 
 
-## Använda Tekniker
+### Använda Tekniker
 
 * **JavaScript (ES6+):** För all applikationslogik och DOM-manipulation.
 * **Fetch API:** För att hantera alla asynkrona anrop till TMDb.
