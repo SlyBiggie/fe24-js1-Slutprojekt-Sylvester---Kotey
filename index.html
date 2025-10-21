@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Enkla Filmdatabas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="homeTitle" style="cursor: pointer;">Movie database (TMDb)</h1> 
+        <div class="controls">
+            <button id="topRatedBtn" class="control-button">Topprankade (10)</button>
+            <button id="popularBtn" class="control-button">Populära (10)</button>
+
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Sök film, person eller titel..." required>
+                <button type="submit" class="control-button search-button">Sök</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section id="resultsSection">
+            <h2 id="resultsTitle">Välkommen! Välj en lista eller sök.</h2>
+            <div id="resultsContainer" class="grid-container">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
